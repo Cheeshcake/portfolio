@@ -21,8 +21,8 @@
 /*Typography*/
 
 .heading-regular {
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 28px;
+  line-height: 32px;
   font-weight: 400;
   letter-spacing: -0.02em;
 }
@@ -42,8 +42,8 @@
 }
 
 .heading-extrabold {
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 28px;
+  line-height: 32px;
   font-weight: 800;
   letter-spacing: -0.02em;
 }
@@ -77,18 +77,27 @@
 
 .outlined-extrabold {
   font-size: 28px;
-  line-height: 28px;
+  line-height: 32px;
   font-weight: 800;
   letter-spacing: -0.02em;
-  -webkit-text-stroke: 1px #000;
+  text-shadow: 2px 2px 0 #ffffff, -1px 4px 0 #000, 4px 0px 0 #000,
+    4px 4px 0 #000, 0 0 0px #000;
   color: transparent;
 }
 
-.subheading-regular {
-  font-size: 40px;
-  line-height: 48px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
+@media (min-width: 768px) {
+  .outlined-extrabold {
+    font-size: 48px;
+    line-height: 28px;
+  }
+  .heading-regular {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .heading-extrabold {
+    font-size: 48px;
+    line-height: 56px;
+  }
 }
 
 .subheading-semibold {
@@ -105,12 +114,7 @@
   letter-spacing: -0.02em;
 }
 
-.subheading-extrabold {
-  font-size: 40px;
-  line-height: 48px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
+
 
 .heading-h1-regular {
   font-size: 36px;

@@ -1,0 +1,29 @@
+---
+import { Image } from "astro:assets";
+import heroImage from "./public/assets/hero-image.png";
+import Icons from "../react-components/icons";
+---
+
+<div class="flex flex-col-reverse md:flex-row w-5/6 mx-auto relative md:h-600 mt-8">
+  <div class="flex flex-col justify-center w-full md:w-1/2 mt-12 md:mt-0">
+    <div class="mb-6 md:mb-8 ">
+      <p class="heading-regular">
+        Hello I am
+        <span class="heading-extrabold"> Evren Shah.</span>
+        <br>
+        <span class="heading-extrabold"> Frontend</span>
+        <span class="outlined-extrabold"> Developer</span>
+        <br />
+         Based in
+        <span class="heading-extrabold"> India.</span>
+      </p>
+    </div>
+    <p class="paragraph-p2-regular text-zinc-500 mb-6 md:mb-16">
+      I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
+    </p>
+    <Icons client:load/>
+  </div>
+  <div class="w-full md:w-1/2 md:absolute md:right-20">
+    <Image src={heroImage} alt="Hero Image" class="border-b-3 border-b-black" />
+  </div>
+</div>

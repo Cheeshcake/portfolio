@@ -2,6 +2,9 @@
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
+    borderWidth: {
+      '3': '3px',
+    },
     extend: {
       colors: {
         primary: {
@@ -19,6 +22,9 @@ export default {
         error: {
           500: "#ef4444",
         },
+      },
+      height: {
+        600: "600px",
       },
     },
   },
