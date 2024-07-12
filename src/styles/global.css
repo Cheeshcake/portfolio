@@ -20,6 +20,7 @@
 
 /*Typography*/
 
+/*used*/
 .heading-regular {
   font-size: 28px;
   line-height: 32px;
@@ -40,7 +41,7 @@
   font-weight: 700;
   letter-spacing: -0.02em;
 }
-
+/*used*/
 .heading-extrabold {
   font-size: 28px;
   line-height: 32px;
@@ -53,8 +54,13 @@
   line-height: 28px;
   font-weight: 400;
   letter-spacing: -0.02em;
-  -webkit-text-stroke: 1px #000;
-  color: transparent;
+  background-color: var(--primary-black);
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 8);
+  -webkit-background-clip: text;
+  color: var(--primary-white);
+  padding: calc(calc(1em / 8) / 2);
 }
 
 .outlined-semibold {
@@ -62,8 +68,13 @@
   line-height: 28px;
   font-weight: 600;
   letter-spacing: -0.02em;
-  -webkit-text-stroke: 1px #000;
-  color: transparent;
+  background-color: var(--primary-black);
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 8);
+  -webkit-background-clip: text;
+  color: var(--primary-white);
+  padding: calc(calc(1em / 8) / 2);
 }
 
 .outlined-bold {
@@ -71,20 +82,32 @@
   line-height: 28px;
   font-weight: 700;
   letter-spacing: -0.02em;
-  -webkit-text-stroke: 1px #000;
-  color: transparent;
+  background-color: var(--primary-black);
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 8);
+  -webkit-background-clip: text;
+  color: var(--primary-white);
+  padding: calc(calc(1em / 8) / 2);
 }
-
+/*used*/
 .outlined-extrabold {
   font-size: 28px;
   line-height: 32px;
   font-weight: 800;
   letter-spacing: -0.02em;
-  text-shadow: 2px 2px 0 #ffffff, -1px 4px 0 #000, 4px 0px 0 #000,
+  background-color: var(--primary-black);
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 8);
+  -webkit-background-clip: text;
+  color: var(--primary-white);
+  padding: calc(calc(1em / 8) / 2);
+  /* text-shadow: 2px 2px 0 #ffffff, -1px 4px 0 #000, 4px 0px 0 #000,
     4px 4px 0 #000, 0 0 0px #000;
-  color: transparent;
+  color: transparent; */
 }
-
+/*used*/
 @media (min-width: 768px) {
   .outlined-extrabold {
     font-size: 48px;
@@ -113,8 +136,6 @@
   font-weight: 700;
   letter-spacing: -0.02em;
 }
-
-
 
 .heading-h1-regular {
   font-size: 36px;
@@ -242,6 +263,7 @@
   letter-spacing: -0.02em;
 }
 
+/*used*/
 .heading-h5-bold {
   font-size: 20px;
   line-height: 24px;
@@ -311,7 +333,7 @@
   font-weight: 800;
   letter-spacing: -0.02em;
 }
-
+/*used*/
 .paragraph-p2-regular {
   font-size: 16px;
   line-height: 20px;
@@ -374,7 +396,7 @@
   font-weight: 400;
   letter-spacing: -0.02em;
 }
-
+/*used*/
 .button-text-semibold {
   font-size: 20px;
   line-height: 24px;
