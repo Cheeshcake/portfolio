@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { skills } from "../../js/data.js";
 
-
 const SkillsGrid = () => {
   const [invertedIndex, setInvertedIndex] = useState<number>(1);
 
@@ -25,9 +24,7 @@ const SkillsGrid = () => {
             <img
               src={skill.image}
               alt={skill.title}
-              className={`${
-                invertedIndex === index ? "invert" : ""
-              }`}
+              className={`${invertedIndex === index ? "invert" : ""}`}
             />
             <h2 className="heading-h5-bold">{skill.title}</h2>
           </div>

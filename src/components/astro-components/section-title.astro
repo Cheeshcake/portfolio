@@ -1,11 +1,14 @@
 ---
 interface Props {
   title?: string;
+  color?: string;
 }
 
-const {title = "Skills"} = Astro.props as Props;
+const { title = "Skills", color = "black" } = Astro.props as Props;
 ---
 
 <div class="w-full flex justify-center items-center my-10">
-  <h1 class="heading-regular w-fit">My <span class="heading-extrabold">{title}</span></h1>
+  <h1 class={`heading-regular w-fit text-${color}`}>
+    My <span class="heading-extrabold">{title}</span>
+  </h1>
 </div>

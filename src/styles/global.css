@@ -121,6 +121,9 @@
     font-size: 48px;
     line-height: 56px;
   }
+  .heading-h4-semibold {
+    font-size: 24px;
+  }
 }
 
 .subheading-semibold {
@@ -227,9 +230,9 @@
   font-weight: 400;
   letter-spacing: -0.02em;
 }
-
+/*used*/
 .heading-h4-semibold {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -479,19 +482,19 @@
 }
 
 /*Button properties*/
-
 .button-primary {
   background-color: var(--primary-black);
   color: var(--primary-white);
   height: 56px;
   border-radius: 4px;
   padding: 16px 20px;
+  border: 2px solid var(--primary-black);
 }
 .button-primary:hover {
   background-color: var(--primary-neutral);
+  border: 2px solid var(--primary-neutral);
 }
 .button-primary:active {
   background-color: var(--primary-white);
   color: var(--primary-black);
-  border: 2px solid var(--primary-black);
 }

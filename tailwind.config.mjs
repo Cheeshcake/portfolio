@@ -3,7 +3,7 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     borderWidth: {
-      '3': '3px',
+      3: "3px",
     },
     extend: {
       colors: {
