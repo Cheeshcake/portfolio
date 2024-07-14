@@ -64,3 +64,24 @@ export const experiences = [
     date: "Jan 2016 - Dec 2017",
   },
 ];
+
+export const projects = [
+  {
+    title: "Crypto Screener Application",
+    image: "/assets/project1.png",
+    description:
+      "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+  {
+    title: "Euphoria - Ecommerce (Apparels) Website Template",
+    image: "/assets/project2.png",
+    description:
+      "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+  {
+    title: "Blog Website Template",
+    image: "/assets/project3.png",
+    description:
+      "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+];

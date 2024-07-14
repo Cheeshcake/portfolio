@@ -1,0 +1,39 @@
+---
+import SectionTitle from "./section-title.astro";
+import { projects } from "../../js/data";
+---
+
+<div class="flex flex-col justify-center items-center w-full bg-black">
+  <SectionTitle title="Projects" color="white" />
+  <div>
+    {
+      projects.map((project, index) => (
+        <div
+          class={`flex flex-col justify-around items-center md:w-11/12 mx-auto p-4 mb-10 ${
+            index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+          }`}
+        >
+          <img
+            src={project.image}
+            alt="project image"
+            class="w-full md:w-1/3 rounded-2xl mb-7 md:mb-0"
+          />
+          <div class="w-full md:w-1/2 flex flex-col items-start">
+            <h1 class="heading-extrabold text-white mb-5">
+              {index < 9 ? `0${index + 1}` : index + 1}
+            </h1>
+            <h2 class="heading-h2-bold text-white mb-5">{project.title}</h2>
+            <p class="paragraph-p2-regular text-zinc-500 mb-5">
+              {project.description}
+            </p>
+            <img
+              src="/assets/open-icon.png"
+              alt="open icon"
+              class="cursor-pointer"
+            />
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</div>

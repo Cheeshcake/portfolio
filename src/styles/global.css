@@ -124,6 +124,9 @@
   .heading-h4-semibold {
     font-size: 24px;
   }
+  .heading-h2-bold {
+    font-size: 33px !important;
+  }
 }
 
 .subheading-semibold {
@@ -181,9 +184,10 @@
   font-weight: 600;
   letter-spacing: -0.02em;
 }
+/*used*/
 
 .heading-h2-bold {
-  font-size: 33px;
+  font-size: 20px;
   line-height: 40px;
   font-weight: 700;
   letter-spacing: -0.02em;

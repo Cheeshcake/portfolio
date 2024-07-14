@@ -3,9 +3,13 @@ import SectionTitle from "./section-title.astro";
 import { experiences } from "../../js/data";
 ---
 
-<div class="flex flex-col justify-between items-center bg-black w-full py-5 md:py-10">
+<div
+  class="flex flex-col justify-between items-center bg-black w-full py-5 md:py-10"
+>
   <SectionTitle title="Experience" color="white" />
-  <div class="flex flex-col justify-center items-center w-5/6 mx-auto mt-5 md:mt-10">
+  <div
+    class="flex flex-col justify-center items-center w-5/6 mx-auto mt-5 md:mt-10"
+  >
     {
       experiences.map((experience, index) => (
         <div
