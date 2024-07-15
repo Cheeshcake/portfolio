@@ -1,0 +1,44 @@
+---
+import Btn from "../react-components/btn";
+import Icons from "../react-components/icons";
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:w-5/6 mx-auto my-10">
+  <div class="w-11/12 p-5 flex flex-col">
+    <input
+      type="text"
+      placeholder="Your name"
+      class="mb-5 border-1 border-black rounded-md p-3"
+    />
+    <input
+      type="email"
+      placeholder="Email"
+      class="mb-5 border-1 border-black rounded-md p-3"
+    />
+    <input
+      type="text"
+      placeholder="Your website (If exists)"
+      class="mb-5 border-1 border-black rounded-md p-3"
+    />
+    <textarea
+      placeholder="How can I help?*"
+      class="h-32 p-3 mb-5 border-1 border-black rounded-md"></textarea>
+    <div class="flex flex-col md:flex-row">
+      <div class="mr-5 mb-5 md:mb-0">
+        <Btn title="Get In Touch" hidden={false}/>
+      </div>
+      <Icons gap="5" client:visible />
+    </div>
+  </div>
+  <div class="flex flex-col justify-center w-11/12 mx-auto">
+    <h1 class="heading-extrabold mb-5">
+      Let's <span class="outlined-extrabold">talk</span> for <br /> Something special
+    </h1>
+    <p class="paragraph-p2-regular text-zinc-500 mb-5">
+      I seek to push the limits of creativity to create high-engaging,
+      user-friendly, and memorable interactive experiences.
+    </p>
+    <h3 class="heading-h3-semibold mb-3">Youremail@gmail.com</h3>
+    <h3 class="heading-h3-semibold">1234567890</h3>
+  </div>
+</div>

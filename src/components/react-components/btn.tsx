@@ -5,7 +5,7 @@ interface Props {
   icon?: boolean;
 }
 
-const Btn = ({ title = "Button", icon = false }) => {
+const Btn = ({ title = "Button", icon = false, hidden = true }) => {
   const [isActive, setIsActive] = useState(false);
 
   const handleMouseDown = () => {
@@ -19,7 +19,7 @@ const Btn = ({ title = "Button", icon = false }) => {
   return (
     <button
       type="button"
-      className={`button-primary button-text-semibold hidden md:flex md:items-center`}
+      className={`button-primary button-text-semibold ${hidden ? "hidden" : "flex"} md:flex md:items-center`}
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
     >

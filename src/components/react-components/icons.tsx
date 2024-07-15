@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Icons = () => {
+const Icons = ({gap = "7"}) => {
   const [invertedIndex, setInvertedIndex] = useState<number>(0);
 
   const handleImageClick = (index: number) => {
@@ -15,7 +15,7 @@ const Icons = () => {
       <img
         src="/assets/facebook.png"
         alt="facebook"
-        className={`p-4 border-2 mr-7 cursor-pointer bg-white border-black rounded-md ${
+        className={`p-4 border-2 mr-${gap} cursor-pointer bg-white border-black rounded-md ${
           invertedIndex === 0 ? "invert" : ""
         }`}
         onClick={() => handleImageClick(0)}
@@ -23,7 +23,7 @@ const Icons = () => {
       <img
         src="/assets/reddit.png"
         alt="reddit"
-        className={`p-4 border-2 mr-7 cursor-pointer bg-white border-black rounded-md ${
+        className={`p-4 border-2 mr-${gap} cursor-pointer bg-white border-black rounded-md ${
           invertedIndex === 1 ? "invert" : ""
         }`}
         onClick={() => handleImageClick(1)}
@@ -31,7 +31,7 @@ const Icons = () => {
       <img
         src="/assets/twitter.png"
         alt="twitter"
-        className={`p-4 border-2 mr-7 cursor-pointer bg-white border-black rounded-md ${
+        className={`p-4 border-2 mr-${gap} cursor-pointer bg-white border-black rounded-md ${
           invertedIndex === 2 ? "invert" : ""
         }`}
         onClick={() => handleImageClick(2)}
@@ -39,7 +39,7 @@ const Icons = () => {
       <img
         src="/assets/discord.png"
         alt="discord"
-        className={`p-4 border-2 mr-7 cursor-pointer bg-white border-black rounded-md ${
+        className={`p-4 border-2 mr-${gap} cursor-pointer bg-white border-black rounded-md ${
           invertedIndex === 3 ? "invert" : ""
         }`}
         onClick={() => handleImageClick(3)}

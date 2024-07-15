@@ -127,6 +127,12 @@
   .heading-h2-bold {
     font-size: 33px !important;
   }
+  .heading-h3-semibold {
+    font-size: 28px !important;
+  }
+  .button-text-semibold {
+    font-size: 20px !important;
+  }
 }
 
 .subheading-semibold {
@@ -206,9 +212,10 @@
   font-weight: 400;
   letter-spacing: -0.02em;
 }
+/*used*/
 
 .heading-h3-semibold {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 32px;
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -406,7 +413,7 @@
 }
 /*used*/
 .button-text-semibold {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 600;
   letter-spacing: -0.02em;
