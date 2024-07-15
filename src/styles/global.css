@@ -18,9 +18,9 @@
   padding: 0;
 }
 
+
 /*Typography*/
 
-/*used*/
 .heading-regular {
   font-size: 28px;
   line-height: 32px;
@@ -28,20 +28,6 @@
   letter-spacing: -0.02em;
 }
 
-.heading-semibold {
-  font-size: 48px;
-  line-height: 56px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.heading-bold {
-  font-size: 48px;
-  line-height: 56px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-/*used*/
 .heading-extrabold {
   font-size: 28px;
   line-height: 32px;
@@ -49,48 +35,6 @@
   letter-spacing: -0.02em;
 }
 
-.outlined-regular {
-  font-size: 28px;
-  line-height: 28px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  background-color: var(--primary-black);
-  background-clip: text;
-  -webkit-text-stroke-color: transparent;
-  -webkit-text-stroke-width: calc(1em / 8);
-  -webkit-background-clip: text;
-  color: var(--primary-white);
-  padding: calc(calc(1em / 8) / 2);
-}
-
-.outlined-semibold {
-  font-size: 28px;
-  line-height: 28px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  background-color: var(--primary-black);
-  background-clip: text;
-  -webkit-text-stroke-color: transparent;
-  -webkit-text-stroke-width: calc(1em / 8);
-  -webkit-background-clip: text;
-  color: var(--primary-white);
-  padding: calc(calc(1em / 8) / 2);
-}
-
-.outlined-bold {
-  font-size: 28px;
-  line-height: 28px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  background-color: var(--primary-black);
-  background-clip: text;
-  -webkit-text-stroke-color: transparent;
-  -webkit-text-stroke-width: calc(1em / 8);
-  -webkit-background-clip: text;
-  color: var(--primary-white);
-  padding: calc(calc(1em / 8) / 2);
-}
-/*used*/
 .outlined-extrabold {
   font-size: 28px;
   line-height: 32px;
@@ -107,7 +51,7 @@
     4px 4px 0 #000, 0 0 0px #000;
   color: transparent; */
 }
-/*used*/
+
 @media (min-width: 768px) {
   .outlined-extrabold {
     font-size: 48px;
@@ -135,84 +79,12 @@
   }
 }
 
-.subheading-semibold {
-  font-size: 40px;
-  line-height: 48px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.subheading-bold {
-  font-size: 40px;
-  line-height: 48px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.heading-h1-regular {
-  font-size: 36px;
-  line-height: 44px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-
-.heading-h1-semibold {
-  font-size: 36px;
-  line-height: 44px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.heading-h1-bold {
-  font-size: 36px;
-  line-height: 44px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.heading-h1-extrabold {
-  font-size: 36px;
-  line-height: 44px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.heading-h2-regular {
-  font-size: 33px;
-  line-height: 40px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-
-.heading-h2-semibold {
-  font-size: 33px;
-  line-height: 40px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-/*used*/
-
 .heading-h2-bold {
   font-size: 20px;
   line-height: 40px;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
-
-.heading-h2-extrabold {
-  font-size: 33px;
-  line-height: 40px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.heading-h3-regular {
-  font-size: 28px;
-  line-height: 32px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-/*used*/
 
 .heading-h3-semibold {
   font-size: 20px;
@@ -221,55 +93,12 @@
   letter-spacing: -0.02em;
 }
 
-.heading-h3-bold {
-  font-size: 28px;
-  line-height: 32px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.heading-h3-extrabold {
-  font-size: 28px;
-  line-height: 32px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.heading-h4-regular {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-/*used*/
 .heading-h4-semibold {
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
-
-.heading-h4-bold {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.heading-h4-extrabold {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.heading-h5-regular {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-/*used*/
 
 .heading-h5-semibold {
   font-size: 20px;
@@ -278,7 +107,6 @@
   letter-spacing: -0.02em;
 }
 
-/*used*/
 .heading-h5-bold {
   font-size: 20px;
   line-height: 24px;
@@ -286,20 +114,6 @@
   letter-spacing: -0.02em;
 }
 
-.heading-h5-extrabold {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.heading-h6-regular {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-/*used*/
 .heading-h6-semibold {
   font-size: 16px;
   line-height: 20px;
@@ -307,48 +121,6 @@
   letter-spacing: -0.02em;
 }
 
-.heading-h6-bold {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.heading-h6-extrabold {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.paragraph-p1-regular {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-
-.paragraph-p1-semibold {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.paragraph-p1-bold {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.paragraph-p1-extrabold {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-/*used*/
 .paragraph-p2-regular {
   font-size: 16px;
   line-height: 20px;
@@ -356,143 +128,12 @@
   letter-spacing: -0.02em;
 }
 
-.paragraph-p2-semibold {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.paragraph-p2-bold {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.paragraph-p2-extrabold {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.paragraph-p3-regular {
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-
-.paragraph-p3-semibold {
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.paragraph-p3-bold {
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.paragraph-p3-extrabold {
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.button-text-regular {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-/*used*/
 .button-text-semibold {
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
-
-.button-text-bold {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.button-text-extrabold {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.button-text2-regular {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-
-.button-text2-semibold {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.button-text2-bold {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.button-text2-extrabold {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.underlined-regular {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  text-decoration: underline;
-}
-
-.underlined-semibold {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  text-decoration: underline;
-}
-
-.underlined-bold {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  text-decoration: underline;
-}
-
-.underlined-extrabold {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  text-decoration: underline;
-}
-
 /*Button properties*/
 .button-primary {
   background-color: var(--primary-black);
