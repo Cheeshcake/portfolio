@@ -85,3 +85,27 @@ export const projects = [
       "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
 ];
+
+export const testimonials = [
+  {
+    image: "/assets/evren.png",
+    content:
+      "I recently had to jump on 10+ different calls across eight different countries to find the right owner.",
+    name: "Evren Shah",
+    job: "Designer",
+  },
+  {
+    image: "/assets/flora.png",
+    content:
+      "I recently had to jump on 10+ different calls across eight different countries to find the right owner.",
+    name: "Flora Sheen",
+    job: "Designer",
+  },
+  {
+    image: "/assets/evren.png",
+    content:
+      "I recently had to jump on 10+ different calls across eight different countries to find the right owner.",
+    name: "Evren Shah",
+    job: "Designer",
+  },
+];
