@@ -1,7 +1,7 @@
 ---
-import { Image } from "astro:assets";
-import heroImage from "./public/assets/hero-image.png";
 import Icons from "../react-components/icons";
+import { Image } from "astro:assets";
+import heroImage from "/public/assets/hero-image.png";
 ---
 
 <div
@@ -26,7 +26,7 @@ import Icons from "../react-components/icons";
       text ever since the 1500s, when an unknown printer took a galley of type
       and scrambled it to specimen book.
     </p>
-    <Icons client:load />
+    <Icons gap="8" client:load />
   </div>
   <div class="w-full md:w-1/2 md:absolute md:right-20">
     <Image src={heroImage} alt="Hero Image" class="border-b-3 border-b-black" />

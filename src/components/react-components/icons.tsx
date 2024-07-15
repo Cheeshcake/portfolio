@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Icons = ({gap = "7"}) => {
+const Icons = ({ gap = "8" }) => {
   const [invertedIndex, setInvertedIndex] = useState<number>(0);
 
   const handleImageClick = (index: number) => {
